@@ -3,7 +3,7 @@ from telebot import types
 
 bot = telebot.TeleBot('6630584114:AAF26ceUl1n5eytz_6MX3uBhPUmBlkRowmI')
 
-users = [5251334860, 990043425]
+users = [5251334860, 990043425, 990043425]
 
 
 @bot.message_handler(func=lambda message: message.chat.id not in users)
