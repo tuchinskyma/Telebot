@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot('6630584114:AAF26ceUl1n5eytz_6MX3uBhPUmBlkRowmI')
+bot = telebot.TeleBot('?')
 
 users = [5251334860, 990043425]
 
